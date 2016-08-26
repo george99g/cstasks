@@ -1,0 +1,7 @@
+# Project lock files
+*.lock.json
+# VSCode files
+.vscode
+# Compiler output
+bin
+obj
