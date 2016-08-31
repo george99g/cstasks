@@ -5,3 +5,5 @@
 # Compiler output
 bin
 obj
+# Core dumps
+core
