@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+      textarea {
+        width:100%;
+      }
+      input.small {
+        width:60px;
+      }
+      input.full {
+        width:100%;
+      }
+      input.tiny {
+        width:20px;
+      }
+    </style>
+    <datalist id=countries>
+      <option value="Austria">Austria</option>
+      <option value="Belgium">Belgium</option>
+      <option value="Bulgaria">Bulgaria</option>
+      <option value="Croatia">Croatia</option>
+      <option value="Cyprus">Cyprus</option>
+      <option value="Czech Republic">Czech Republic</option>
+      <option value="Denmark">Denmark</option>
+      <option value="Estonia">Estonia</option>
+      <option value="Finland">Finland</option>
+      <option value="France">France</option>
+      <option value="Germany">Germany</option>
+      <option value="Greece">Greece</option>
+      <option value="Hungary">Hungary</option>
+      <option value="Ireland">Ireland</option>
+      <option value="Italy">Italy</option>
+      <option value="Latvia">Latvia</option>
+      <option value="Lithuania">Lithuania</option>
+      <option value="Luxembourg">Luxembourg</option>
+      <option value="Malta">Malta</option>
+      <option value="Netherlands">Netherlands</option>
+      <option value="Poland">Poland</option>
+      <option value="Portugal">Portugal</option>
+      <option value="Romania">Romania</option>
+      <option value="Slovakia">Slovakia</option>
+      <option value="Slovenia">Slovenia</option>
+      <option value="Spain">Spain</option>
+      <option value="Sweden">Sweden</option>
+      <option value="United Kingdom">United Kingdom</option>
+    </datalist>
+    <title>Last Name</title>
+  </head>
+  <body>
+    <form>
+      <table border>
+        <tr>
+          <th>Last Name</th>
+          <td colspan=3><input class=full value="Nakov"></td>
+        </tr>
+        <tr>
+          <th>First Name</th>
+          <td colspan=3><input class=full value="Svetlin"></td>
+        </tr>
+        <tr>
+          <th>Address</th>
+          <td colspan=3>
+            <textarea>
+  17 Hristo Botev Str.
+  floor 3, apt. 12
+            </textarea>
+          </td>
+        </tr>
+        <tr>
+          <th>City</th>
+          <td><input class=full value="Kaspichan"></td>
+          <th>State</th>
+          <td><input></td>
+        </tr>
+        <tr>
+          <th>Zip/Postal Code</th>
+          <td colspan=3><input class=small value="9325"></td>
+        </tr>
+        <tr>
+          <th>Country</th>
+          <td colspan=3><input class=full type=text list=countries value="Bulgaria"></td>
+        </tr>
+        <tr>
+          <th>Phone (country code, area code, number)</th>
+          <td colspan=3>
+            (+<input value="359" class=small>)
+            <input value="88" class=small>-
+            <input value="8334343" class=small>
+          </td>
+        </tr>
+        <tr>
+          <th>E-mail</th>
+          <td colspan=3><input class=full type=email value="nakov@kaspichan.org"></td>
+        </tr>
+        <tr>
+          <th>Birth date</th>
+          <td colspan=3>
+            Month<input class=tiny value=06>
+            Day<input class=tiny value=14>
+            Year(4 digit)<input class=small value=1980>
+          </td>
+        </tr>
+        <tr>
+          <th>Gender</th>
+          <td colspan=3>
+            <select>
+              <option selected value=Male>Male</option>
+              <option value=Female>Female</option>
+              <option value=Unspecified>Unspecified</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>Starting date</th>
+          <td colspan=3>
+            <input name="Starting date" type=radio value=0 checked>
+            Spring 2006
+            <input name="Starting date" type=radio value=1>
+            Summer 2006
+          </td>
+        </tr>
+        <tr>
+          <th>Comments/Questions</th>
+          <td colspan=3>
+            <textarea>
+Please send me mor information about the lodging.
+            </textarea>
+          </td>
+        </tr>
+        <tfoot>
+          <td colspan=4>
+            <center>
+              <input type=submit>
+              <input type=reset value="Clear This Form">
+            </center>
+          </td>
+        </tfoot>
+      </table>
+    </form>
+  </body>
+</html>

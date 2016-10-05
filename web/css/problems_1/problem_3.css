@@ -1,0 +1,51 @@
+body {
+  background-color: darkgray;
+}
+
+body>header {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+}
+
+body>footer {
+  text-align: center;
+}
+
+article a {
+  text-decoration: none;
+  color:black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: lemonchiffon;
+}
+
+body>header>h1 {
+  text-align: center;
+}
+
+body>header>nav a {
+  color: white;
+  font-weight: bolder;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+body>header>nav>ul li:nth-child(2) a {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+body>header>nav>ul li:last-child a {
+  text-decoration: underline;
+}
+
+body>header>nav>ul {
+  padding-left: 0px;
+  display: block;
+  text-align: center;
+}
+
+body>header>nav>ul li {
+  display: block;
+}

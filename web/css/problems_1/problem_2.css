@@ -1,0 +1,35 @@
+table, th, td {
+  border-collapse: collapse;
+  border: none;
+}
+
+table {
+  border-bottom: 1px solid gray;
+}
+
+th {
+  background-color: green;
+  color: white;
+}
+
+tr {
+  border: none;
+  background-color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: beige;
+}
+
+td, th {
+  text-align: left;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  padding: 5px 50px 5px 10px;
+}
+
+img {
+  height: 1em;
+  width: 1.5em;
+  vertical-align: middle;
+}

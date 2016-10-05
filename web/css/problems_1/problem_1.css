@@ -1,0 +1,40 @@
+body {
+  background-color: #333333;
+  color: silver;
+}
+
+td {
+  padding-bottom: 15px;
+}
+
+th {
+  color: white;
+  font-weight: normal;
+  font-style: italic;
+  text-align: left;
+  vertical-align: top;
+  padding-right: 30px;
+}
+
+a {
+  color: yellow;
+  text-decoration: none;
+}
+
+div.online-indicator {
+  display:inline-block;
+  width: 1em;
+  height: 1em;
+  border-radius: 100%;
+  background-color: green;
+}
+
+span.danger {
+  color: red;
+  font-weight: bold;
+}
+
+span.unanswered {
+  color: chocolate;
+  font-weight: bold;
+}
