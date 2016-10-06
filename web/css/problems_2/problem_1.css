@@ -1,0 +1,9 @@
+body {
+  color: #0094ff;
+  font-family: "Consolas";
+  margin-top: 25px;
+}
+
+body::first-letter {
+  font-family: "Edwardian Script ITC";
+}
