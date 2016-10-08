@@ -1,0 +1,35 @@
+body {
+  background-color: #3b3b3b;
+}
+
+header {
+  color: white;
+  background: radial-gradient(farthest-side at 50% 200%, black 10%, #2b2b2b 80%, #3b3b3b);
+  display:flex;
+  align-items:center;
+}
+
+header>* {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+header>div {
+  display: inline-block;
+  font-size: 200%;
+  height: auto;
+}
+
+section>h1 {
+  color: #f9db19;
+}
+
+section>p {
+  color: #a2a2a2;
+}
+
+section>p>a {
+  color: white;
+  text-decoration: none;
+}

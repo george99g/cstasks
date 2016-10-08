@@ -1,0 +1,21 @@
+.list {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.list div {
+  display: none;
+  color: gray;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.list:hover div {
+  display: inline-block;
+  width: 99.5%;
+  text-decoration: none;
+}
+
+.list:hover {
+  text-decoration: underline;
+}

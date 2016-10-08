@@ -1,0 +1,54 @@
+body {
+  background-color: #EEE;
+}
+
+.category {
+  margin-top: 40px;
+  border: 1px solid gray;
+  padding: 15px;
+  background-color: white;
+  position: relative;
+}
+
+header>h2 {
+  font-weight: normal;
+}
+
+.category>img {
+  display: inline-block;
+  width: 30%;
+  float: left;
+}
+
+.text {
+  padding-left: 15px;
+}
+
+.rightblock {
+  display: inline-block;
+  float: left;
+  width: 70%;
+}
+
+.buttons {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.button {
+  display: inline-block;
+  position: relative;
+}
+
+.buttontext {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  color: white;
+  font-weight: bolder;
+}
+
+.clear {
+  clear: both;
+}

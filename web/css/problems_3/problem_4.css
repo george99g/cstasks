@@ -1,0 +1,118 @@
+body {
+  background-color: #f1f1f1;
+  width: 820px;
+}
+
+a {
+  color: #890000;
+}
+
+.left-aligned-nav {
+  float: left;
+  width: 20%;
+}
+
+.left-aligned-nav .homebutton a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.left-aligned-nav .linkblock {
+  margin-top: 15px;
+}
+
+.left-aligned-nav .linkblock a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.left-aligned-nav .linkblock a:hover {
+  text-decoration: underline;
+}
+
+.left-aligned-nav .linkblock .header {
+  color: #890000;
+  font-weight: bold;
+}
+
+.right-aligned-ads {
+  float: right;
+  width: 20%;
+}
+
+main {
+  float: left;
+  width: 58%;
+  border: 1px solid gray;
+  padding: 5px;
+  background-color: white;
+  padding-bottom: 30px;
+}
+
+/*
+ * The actual W3Schools homepage uses a .gif for
+ * their buttons. I'm not doing that. Sorry, no
+ * arrows for these buttons.
+ *
+ * Also, that picture is of their homepage during
+ * 2008. That's <b>8 years</b>.
+ */
+main button {
+  background-color: white;
+  border: 1px solid black;
+  width: 100px;
+}
+
+main article {
+  margin-top: 10px;
+}
+
+main article h3 {
+  color: white;
+  background-color: #808080;
+  padding-left: 5px;
+  margin: 0px;
+}
+
+main article img {
+  float: left;
+}
+
+main article.boldtext p {
+  font-weight: bold;
+}
+
+main article p a {
+  font-weight: normal;
+}
+
+main article p {
+  margin-bottom: 0px;
+}
+
+.right-aligned-ads article{
+  background-color: white;
+  border: 1px solid gray;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.right-aligned-ads input {
+  width: 72%;
+}
+
+.right-aligned-ads h4 {
+  color: white;
+  background-color: #808080;
+  text-align: center;
+  margin: 0px 0px 5px 0px;
+  text-transform: uppercase;
+}
+
+.right-aligned-ads a {
+  display: block;
+  text-align: center;
+}
