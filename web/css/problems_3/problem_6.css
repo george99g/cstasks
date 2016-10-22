@@ -1,0 +1,71 @@
+body {
+  background-color: #1e3741;
+  color: #a8afb1;
+  margin: 0px;
+}
+
+nav {
+  margin-bottom: 15px;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  margin: -1px;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a.selected {
+  color: white;
+}
+
+nav a:not(.selected) {
+  color: #a8afb1;
+  background-color: #4b5f67;
+}
+
+main img {
+  width: 100%;
+}
+
+main {
+  float: right;
+  padding-right: 30px;
+  width: calc(60% - 34px);
+}
+
+aside {
+  float: left;
+  width: 40%;
+}
+
+aside a {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 15px 5px;
+}
+
+aside a.selected {
+  color: white;
+  background-color: #00968c;
+}
+
+aside a:not(.selected) {
+  border-top: 1px solid #3a4f58;
+  color: #a8afb1
+}
+
+aside a.selected:hover {
+  background-color: #0fcfc4;
+}
+
+aside a:not(.selected):hover {
+  background-color: #0fcfc4;
+  color: white;
+}
