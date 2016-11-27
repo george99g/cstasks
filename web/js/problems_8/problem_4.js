@@ -13,7 +13,6 @@ var processTable = {
 function parse(tokenArray) {
     var stack = new Array;
     var outputQueue = "";
-    console.log(tokenArray);
     for(var i = 0; i < tokenArray.length; i++)
     {
         if(tokenArray[i].type === "text")
@@ -61,7 +60,6 @@ function lex(input, tagType) {
             output.push({type:"text", text:currentString});
             currentString = "";
             var tagString = input.substring(i + 1, input.indexOf(tagType[1], i + 1));
-            console.log(tagString);
             if(tagString[0] === '/')
                 output.push({type:"tag", endtag:true, tagtext:tagString.substr(1)});
             else
