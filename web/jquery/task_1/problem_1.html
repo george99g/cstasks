@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Problem_1.js test</title>
+  <script src="../jquery.js" charset="utf-8"></script>
+  <script src="problem_1.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      solve($("#mydiv"), 256); //Should be successful.
+      solve($("#arandomdiv"), 2); //Shouldn't do anything.
+      try {
+        solve($("#mydiv"), -20); //Should throw.
+      } catch(e) {
+        var textElement = document.createElement("div");
+        textElement.innerHTML = "Exception caught: " + e.message;
+        document.body.appendChild(textElement);
+      }
+      solve($("#secondDiv"), "5"); //Should still work.
+    });
+  </script>
+</head>
+<body>
+  <div id="mydiv">
+  </div>
+  <div id="secondDiv">
+  </div>
+</body>
+</html>

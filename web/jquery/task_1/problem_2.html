@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>problem_2.js test</title>
+  <script src="../jquery.js" charset="utf-8"></script>
+  <script src="problem_2.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      solve("#myarea");
+    });
+  </script>
+  <style>
+    button {
+      display: block;
+      width: calc(100% - 10px);
+      margin: 5px;
+      padding: 5px;
+    }
+    .content {
+      margin: 5px;
+      padding: 5px;
+      border: 1px solid gray;
+      background-color: #CCC;
+    }
+  </style>
+</head>
+<body>
+  <div id="myarea">
+    <button class="button">
+      Useless.
+    </button>
+    <button class="button">
+      DoStuffToMe.
+    </button>
+    <div class="content">
+      Spoiler!
+    </div>
+    <button class="button">
+      Still useless.
+    </button>
+    <button class="button">
+      Stuff.
+    </button>
+    <div class="content">
+      More spoilers!
+    </div>
+    <div class="content">
+      Can't hide me.
+    </div>
+  </div>
+</body>
+</html>
