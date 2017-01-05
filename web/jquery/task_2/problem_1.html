@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Task 2</title>
+  <script src="../jquery.js" charset="utf-8"></script>
+  <script src="problem_1.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="problem_1.css">
+  <script>
+    $(document).ready(function() {
+      $("#theselect").dropdown();
+      $(".dropdown-list").dropdown("addOptions", [
+        {value:"value-7", text:"Option 7"},
+        {value:"value-6", text:"Option 6"},
+        {value:"value-8", text:"An option"},
+        {value:"value-10", text:"Another option"}
+      ]);
+      $(".dropdown-list").dropdown("removeOptions", ["value-8"]);
+      $(".dropdown-list").dropdown("sortOptions");
+      console.log("Currently selected option:");
+      console.log($(".dropdown-list").dropdown("value"));
+    });
+  </script>
+</head>
+<body>
+  <select id="theselect">
+    <option value="value-1">Option 1</option>
+    <option value="value-2">Option 2</option>
+    <option value="value-3">Option 3</option>
+    <option value="value-4">Option 4</option>
+    <option value="value-5">Option 5</option>
+  </select>
+</body>
+</html>

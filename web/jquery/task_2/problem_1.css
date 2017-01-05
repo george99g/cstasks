@@ -1,0 +1,35 @@
+.current {
+  display: table;
+  padding: 2px 5px 2px 5px;
+  border: 1px solid gray;
+  border-radius: 2px;
+  background: linear-gradient(#DDD, #CCC);
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.current::after {
+  content: "\25bc";
+}
+.current:hover {
+  border: 1px solid black;
+}
+.current.open {
+  background: linear-gradient(#CCC, #DDD);
+}
+.options-container {
+  display: table;
+  border: 1px solid gray;
+}
+.dropdown-item {
+  padding: 2px 20px 2px 5px;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.dropdown-item:hover {
+  background-color: #2B6BFF;
+  color: white;
+}
