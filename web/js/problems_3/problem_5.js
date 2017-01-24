@@ -1,6 +1,6 @@
 function solve(args){
     var a = parseFloat(args);
-    if(a<0||a>9)
+    if(a<0||a>9) //Why not put that in the default case in the switch?
         return "not a digit";
     switch(a)
     {

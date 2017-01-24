@@ -8,7 +8,8 @@
         /*this.css("display", "none");*/
         var selectOptions = this[0].options;
         var selectedOption = selectOptions.item(this[0].selectedOption);
-        var dropdownList = document.createElement("div");
+        //can use jQuey way to create elements: var dropdownList = $('<div></div>');
+		var dropdownList = document.createElement("div"); 
         dropdownList.className = "dropdown-list";
         this[0].parentNode.replaceChild(dropdownList, this[0]);
         dropdownList.appendChild(this[0]);

@@ -6,4 +6,11 @@ body {
 
 body::first-letter {
   font-family: "Edwardian Script ITC";
+  font-weight: bold;
+  font-size: 2em;
+}
+
+@font-face {
+    font-family: Edwardian Script ITC;
+    src: url(EdwardianScriptITC.ttf);
 }

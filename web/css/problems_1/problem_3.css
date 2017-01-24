@@ -32,6 +32,7 @@ body>header>nav a {
   text-decoration: none;
 }
 
+/* this rule should be to the .current class. This way it will later be toggled dynamically (with js) so the 'current' element changes and so do his styles */
 body>header>nav>ul li:nth-child(2) a {
   background-color: rgba(255, 255, 255, 0.5);
 }
