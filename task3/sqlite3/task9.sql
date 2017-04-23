@@ -1,0 +1,1 @@
+SELECT Salary, COUNT(*) FROM Contracts GROUP BY Salary ORDER BY COUNT(*) DESC;
